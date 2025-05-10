@@ -6,6 +6,6 @@ export default function page() {
       <section>
         <Prof />
       </section>
-    </main>
+    </main>    
   )
 }

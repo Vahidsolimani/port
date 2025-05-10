@@ -58,7 +58,6 @@ export default function Header() {
             </Link>
           </nav>
 
-          {/* Mobile menu button */}
           <button 
             className='md:hidden text-[#fea55f] cursor-pointer focus:outline-none z-50'
             onClick={toggleMenu}
@@ -67,7 +66,6 @@ export default function Header() {
             {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
           </button>
 
-          {/* Mobile Menu Overlay */}
           <div 
             className={`
               fixed inset-0 bg-[#0a1f26]/90 backdrop-blur-sm z-40
@@ -89,28 +87,28 @@ export default function Header() {
           >
             <div className='h-full flex flex-col items-end justify-start pt-24 pr-8 space-y-6'>
               <Link 
-                href={'#'} 
+                href={'/'} 
                 className='text-[#fea55f] hover:text-white text-xl capitalize transition-colors duration-300 w-full text-right'
                 onClick={closeMenu}
               >
                 home_
               </Link>
               <Link 
-                href={'#'} 
+                href={'/about'} 
                 className='text-[#fea55f] hover:text-white text-xl capitalize transition-colors duration-300 w-full text-right'
                 onClick={closeMenu}
               >
                 about_me_
               </Link>
               <Link 
-                href={'#'} 
+                href={'/projects'} 
                 className='text-[#fea55f] hover:text-white text-xl capitalize transition-colors duration-300 w-full text-right'
                 onClick={closeMenu}
               >
                 projects_
               </Link>
               <Link 
-                href={'#'} 
+                href={'contact'} 
                 className='text-[#fea55f] hover:text-white text-xl capitalize transition-colors duration-300 w-full text-right'
                 onClick={closeMenu}
               >
@@ -118,7 +116,7 @@ export default function Header() {
               </Link>
               
               <Link 
-                href={'#'} 
+                href={'/resume'} 
                 className='
                   text-[#fea55f] 
                   border border-[#fea55f] 

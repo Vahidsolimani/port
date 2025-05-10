@@ -14,7 +14,7 @@ const projects = [
     "Product reviews & rating system",
     "Responsive design optimized for all devices"
     ],
-    tech: ["Next.js", "Tailwind", "zunstand","swiperjs"],
+    tech: ["Next.js", "Tailwind", "zustand","swiperjs"],
     image: "/shoop.png",
     demo: "https://digikala-home.vercel.app/"
   },
@@ -65,6 +65,14 @@ const projects = [
     tech: ["Tailwind", "Html&css","Responsive"],
     image: "/web.png",
     demo: "https://vahidsolimani.github.io/pageflows/"
+  },
+  {
+    title: "Responsive",
+    description: "An interesting project from Responsive .",
+    features: ["Responsive"],
+    tech: ["Next.js","Tailwind", "Html&css","Responsive"],
+    image: "/tapsi.png",
+    demo: "https://tapsi-virid.vercel.app/"
   },
 ]
 export default function Projects() {

@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <footer className='bg-[#0a1f26] border-t border-blue-600 rounded py-6 sticky bottom-0 z-10'>
-      <div className='max-w-6xl mx-auto px-4'>
+    <footer className='bg-[#0a1f26] border-t border-blue-600 rounded '>
+      <div className='max-w-6xl mx-auto p-4'>
         <div className='flex flex-col items-center gap-6 md:flex-row md:justify-between'>
           {/* Connect with me text - centered on mobile */}
           <div className='bg-gradient-to-r from-[#2b5876] to-[#fea55f] bg-clip-text hidden md:block text-center md:text-left'>
