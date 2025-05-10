@@ -25,7 +25,7 @@ export default function Footer() {
             {/* Social icons */}
             <div className='flex space-x-6'>
               <Link 
-                href="https://linkedin.com" 
+                href="https://linkedin.com/in/vahidsolimani" 
                 target="_blank"
                 className="text-[#607B96] hover:text-[#fea55f] transition-colors duration-300"
                 aria-label="LinkedIn"
@@ -38,7 +38,7 @@ export default function Footer() {
               </Link>
               
               <Link 
-                href="https://github.com" 
+                href="https://github.com/Vahidsolimani" 
                 target="_blank"
                 className="text-[#607B96] hover:text-[#fea55f] transition-colors duration-300"
                 aria-label="GitHub"
@@ -49,7 +49,7 @@ export default function Footer() {
               </Link>
               
               <Link 
-                href="https://instagram.com" 
+                href="https://instagram.com/vahidsolimani.dev" 
                 target="_blank"
                 className="text-[#607B96] hover:text-[#fea55f] transition-colors duration-300"
                 aria-label="Instagram"
