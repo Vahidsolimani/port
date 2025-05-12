@@ -118,13 +118,13 @@ export default function About() {
               </div>
 
               <div className="website-link mt-8 text-center md:text-left">
-                <p className="text-white/80 mb-3">For more information, visit our official website:</p>
+                <p className="text-white/80 mb-3"> visit official website:</p>
                 <Link
                   href="https://trainingsitedesign.ir/"
                   target="_blank"
                   className="inline-block bg-[#fea55f] hover:bg-[#f38c3a] text-white font-bold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg"
                 >
-                  www.parnian.sch.ir
+                trainingsitedesign.ir
                 </Link>
               </div>
             </div>
